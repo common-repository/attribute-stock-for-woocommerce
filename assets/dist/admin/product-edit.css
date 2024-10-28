@@ -1,0 +1,9 @@
+.mewz_wcas_variation_multiplier {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+}
+.mewz_wcas_variation_multiplier.inherited {
+  color: #999;
+}
+

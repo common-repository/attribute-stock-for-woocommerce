@@ -1,0 +1,1063 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Attribute Stock 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"attribute-stock\n"
+"POT-Creation-Date: 2024-05-19T12:30:15+02:00\n"
+"PO-Revision-Date: 2024-05-19 13:15+0200\n"
+"Last-Translator: Manuela Viana <manuelaviana@gmail.com>\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: woocommerce-attribute-stock\n"
+"X-Loco-Version: 2.4.3; wp-5.4.2\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-attribute-stock.php
+msgid "WooCommerce Attribute Stock"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-attribute-stock.php
+msgid "https://codecanyon.net/item/woocommerce-attribute-stock/25796765"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-attribute-stock.php
+#| msgid ""
+#| "Share stock between multiple products or variations. Easily track shared "
+#| "stock, variable stock, product addons, ingredients, and more!"
+msgid ""
+"Supercharge your stock! Share stock between products/variations and deduct "
+"variable quantities. Track shared stock, combos, ingredients, and more."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-attribute-stock.php
+msgid "Mewz"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-attribute-stock.php
+msgid "https://mewz.dev/"
+msgstr ""
+
+#: includes/install.php:43
+msgid ""
+"A different version of \"%s\" is already installed. Please deactivate and "
+"uninstall it first. Your attribute stock data will not be deleted."
+msgstr ""
+
+#: src/Aspects/Admin/Attributes/AttributeList.php:57
+#: src/Aspects/Admin/Attributes/AttributeTermList.php:89
+msgid "Edit stock"
+msgstr "Editar Estoque"
+
+#: src/Aspects/Admin/Attributes/AttributeList.php:63
+#: src/Aspects/Admin/Attributes/AttributeTermList.php:98
+msgid "List stock items"
+msgstr "Listar itens de estoque"
+
+#: src/Aspects/Admin/Attributes/AttributeTermList.php:89
+msgid "Edit attribute-level stock"
+msgstr "Editar nivel de estoque do atributo"
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:21
+#: src/Aspects/Admin/Plugin/PluginHelp.php:23
+msgid "Help & Support"
+msgstr "Ajuda & suporte"
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:24
+msgid ""
+"Need assistance setting up your attribute stock? Found a bug and want to "
+"report it? Just feel like chatting? Get in touch!"
+msgstr ""
+"Precisa de ajuda para configurar seu estoque de atributos? Encontrou um bug "
+"e deseja relatá-lo? Só quer bater um papo? Entre em contato!"
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:26
+msgid "Get support"
+msgstr "Obtenha suporte"
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:36
+msgid ""
+"Want to learn more about %s? Check out the official online documentation."
+msgstr ""
+"Quer saber mais sobre o plugin WooCommerce Attribute Stock? Confira a "
+"documentação oficial online."
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:38
+msgid "Online documentation"
+msgstr "Documentação online"
+
+#: src/Aspects/Admin/Reports/StockReport.php:20
+#: src/Aspects/Admin/Settings/InventorySettings.php:23
+msgid "Attribute Stock"
+msgstr "Estoque do atributo"
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:30
+#| msgid "Limit product stock"
+msgid "Modify product stock"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:33
+msgid ""
+"Set whether attribute stock affects product stock availability. 'Auto' will "
+"only modify stock on the frontend, in cron tasks, and during certain "
+"actions. 'Everywhere' will modify stock in admin views, and may improve "
+"compatibility with other plugins. This setting also affects product stock "
+"multipliers."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:44
+msgid "Sync product visibility"
+msgstr "Sincronizar a visibilidade do produto"
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:47
+msgid ""
+"Update visibility taxonomy for top-level products to reflect attribute stock "
+"status. This allows product queries to respect attribute stock, for example "
+"when using the \"Hide out of stock items\" setting. 'Auto' mirrors the "
+"\"Hide out of stock items\" setting."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:58
+msgid "Trigger product stock actions"
+msgstr "Acionar ações de estoque de produtos"
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:61
+msgid ""
+"Trigger product stock change actions when attribute stock changes. Many "
+"plugins require these actions to know when stock changes on your site. "
+"However, in some cases this might cause issues with certain plugins, or "
+"simply not be needed and use unnecessary system resources."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:74
+msgid ""
+"Allow backorders for products using attribute stock. Does not affect "
+"products with stock management enabled, or products that are not using "
+"attribute stock."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:81
+#| msgid "Quantity multiplier"
+msgid "Product stock multipliers"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:84
+msgid ""
+"Select whether stock multipliers on products and variations affect only "
+"product stock, only attribute stock, or both types of stock."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:89
+#| msgid "Limit product stock"
+msgid "Product stock"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:90
+#, fuzzy
+#| msgid "Attribute Stock"
+msgid "Attribute stock"
+msgstr "Estoque do atributo"
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:95
+#| msgid "Limit product stock"
+msgid "Product stock format"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:98
+msgid ""
+"Setting this to decimal allows products to use fractional stock quantities. "
+"This is required when using decimal product stock multipliers or else "
+"quantities will always be rounded down. You can optionally show whole "
+"numbers so customers don't see fractional stock quantities on the frontend."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:103
+msgid "Decimal"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:104
+msgid "Decimal (Show whole numbers)"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:109
+msgid "Out of stock variations"
+msgstr "Variações fora de estoque"
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:112
+msgid ""
+"Select how variation options will be displayed when out of stock. This only "
+"applies when the \"Hide out of stock items\" setting is disabled, and "
+"affects all variation options site-wide regardless of attribute stock."
+"<br><br> If your products have a lot of variations you'll need to increase "
+"the \"Ajax variation threshold\" for this to work."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:117
+#: src/Aspects/Admin/Settings/InventorySettings.php:132
+msgid "Greyed out"
+msgstr "Cinza para fora"
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:123
+msgid "Unmatched \"Any\" variations"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:126
+msgid ""
+"Select how \"Any\" variation options that don't match attribute stock will "
+"be displayed on the frontend. Only affects product variations with \"Any\" "
+"selected for some or all attribute terms."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:138
+msgid "Ajax variation threshold"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:141
+msgid ""
+"Allows changing the default WooCommerce Ajax Variation Threshold value. When "
+"products have more than this number of variations, WooCommerce will load "
+"them via Ajax. This is often problematic as it incurs extra loading times "
+"and prevents hiding or disabling out-of-stock options. Most servers running "
+"WooCommerce can handle a value of at least 300."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:152
+msgid "Components max depth"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:155
+msgid ""
+"The maximum number of levels to query for stock item components. E.g. for A "
+"> B > C, component C is at a depth of 2. Try to set this as low as possible "
+"to maximize performance. A depth of 0 effectively disables all component "
+"stock."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockActions.php:153
+msgid "Attribute stock \"%s\" has been duplicated."
+msgstr "O estoque de atributo \"% s\" foi duplicado."
+
+#: src/Aspects/Admin/Stock/StockAjax.php:23
+msgid "Invalid attribute stock ID."
+msgstr "ID de estoque de atributo inválido."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:79
+msgid "%d attribute stock enabled."
+msgid_plural "%d attribute stocks enabled."
+msgstr[0] "%d Estoque de atributo ativado."
+msgstr[1] "%d Estoques de atributos ativados."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:81
+msgid "%d attribute stock disabled."
+msgid_plural "%d attribute stocks disabled."
+msgstr[0] "%d Estoque de atributo desabilitado."
+msgstr[1] "%d Estoque de atributos desabilitados."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:87
+msgid "No disabled attribute stocks to enable."
+msgstr "Nenhum estoque de atributo desativado para ativar."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:89
+msgid "No enabled attribute stocks to disable."
+msgstr "Nenhum estoque de atributo habilitado para desabilitar."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:109
+msgid "%d attribute stock duplicated."
+msgid_plural "%d attribute stocks duplicated."
+msgstr[0] "%d Estoque de atributo desabilitado."
+msgstr[1] "%d Estoques de atributos duplicados."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:111
+msgid "No valid attribute stocks to duplicate."
+msgstr "Nenhum estoque de atributo válido para duplicar."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:129
+#, fuzzy
+#| msgid "There are no valid attribute stock items to export."
+msgid "No attribute stock items to export."
+msgstr "Não há estoques de atributos válidos para exportar."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:140
+msgid "%d attribute stock updated."
+msgid_plural "%d attribute stocks updated."
+msgstr[0] "%d Estoque do atributo atualizado com sucesso."
+msgstr[1] "%d Estoques de atributos atualizados com sucesso."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:141
+msgid "%d attribute stock not updated, somebody is editing it."
+msgid_plural "%d attribute stocks not updated, somebody is editing them."
+msgstr[0] ""
+"%d O estoque de atributo não pode ser atualizado, alguém as está editando "
+"isso."
+msgstr[1] ""
+"%d Os estoques de atributos não foram ser atualizado, alguém as está "
+"editando isso."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:142
+msgid "%d attribute stock permanently deleted."
+msgid_plural "%d attribute stocks permanently deleted."
+msgstr[0] "%d Estoque de atributo deletado permanentemente."
+msgstr[1] "%d Estoques de atributos deletados permanentemente."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:143
+msgid "%d attribute stock moved to the Trash."
+msgid_plural "%d attribute stocks moved to the Trash."
+msgstr[0] "%d Estoque de atributo movido para lixeira."
+msgstr[1] "%d Estoques de atributos movidos para lixeira."
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:144
+msgid "%d attribute stock restored from the Trash."
+msgid_plural "%d attribute stocks restored from the Trash."
+msgstr[0] "%d Estoque de atributo restaurado da lixeira."
+msgstr[1] "%d Estoques de atributos restaurados da lixeira."
+
+#: src/Aspects/Admin/Stock/StockEdit.php:43
+msgid "Stock details"
+msgstr "Detalhes do estoque"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:44
+msgid "Match rules"
+msgstr "Regras de correspondência"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:76
+#: src/Aspects/Admin/Stock/StockList.php:64
+msgid "Components"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:103
+#: src/Aspects/Admin/Stock/StockList.php:66
+msgid "Filters"
+msgstr "Filtros"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:198
+#: src/Aspects/Admin/Stock/StockList.php:399
+#: src/Aspects/Admin/Stock/StockListFilters.php:291
+msgid "Any"
+msgstr "Qualquer"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:202
+msgid "Drag to re-order"
+msgstr "Arraste para reordenar"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:205
+#: templates/admin/products/product-options.php:23
+#: templates/admin/products/variation-fields.php:24
+#, fuzzy
+#| msgid "Quantity multiplier"
+msgid "Stock multiplier"
+msgstr "Multiplicador de quantidade"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:206
+#| msgid ""
+#| "The amount of stock reduced per item purchased. Can be a decimal value, "
+#| "or 0 to force out of stock."
+msgid ""
+"The amount of stock reduced per item purchased. Can be set to 0 to force out "
+"of stock, or to -1 to stop matching."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:207
+msgid "New rule"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:208
+#, fuzzy
+#| msgid ""
+#| "Match groups are processed from top to bottom in order. Only the first "
+#| "successful match will be used, unless <strong>Match all groups</strong> "
+#| "is enabled. A product or variation must have all attributes in a group to "
+#| "match."
+msgid ""
+"Attribute rules are matched against products from top to bottom in order. "
+"Only the first matched rule will be used, unless <strong>Multiplex matching</"
+"strong> is enabled. A product or variation must have all attributes in a "
+"rule to match."
+msgstr ""
+"Os grupos de correspondência são processados ​​de cima para baixo em ordem. "
+"Apenas a primeira correspondência bem-sucedida será usada, a menos que "
+"<strong>Corresponder todos os grupos</strong> esteja ativado. Um produto ou "
+"variação deve ter todos os atributos em um grupo para corresponder."
+
+#: src/Aspects/Admin/Stock/StockEdit.php:211
+msgid "Restore last removed rule"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:212
+msgid "Rule #%s"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:213
+msgid ""
+"Stop rule — When matched, excludes this and subsequent rules from matching,"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:222
+#: src/Aspects/Admin/Stock/StockListFilters.php:161
+#: templates/admin/stock/panel-components.php:12
+msgid "Parent components"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:223
+msgid ""
+"Parent components are stock items that use this stock item as a component."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:224
+msgid "Add parent component..."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:225
+#: src/Aspects/Admin/Stock/StockEdit.php:231
+msgid "Child quantity per parent"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:228
+#: src/Aspects/Admin/Stock/StockListFilters.php:165
+#: templates/admin/stock/panel-components.php:27
+msgid "Child components"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:229
+msgid ""
+"Child components are stock items that this stock item uses as components."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:230
+msgid "Add child component..."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:287
+#: src/Aspects/Admin/Stock/StockEdit.php:290
+#: src/Aspects/Admin/Stock/StockEdit.php:292
+#: src/Aspects/Admin/Stock/StockEdit.php:300
+msgid "Attribute stock updated."
+msgstr "O estoque do atributo foi atualizado."
+
+#: src/Aspects/Admin/Stock/StockEdit.php:288
+msgid "Attribute stock field updated."
+msgstr "O campo de estoque de atributo foi atualizado."
+
+#: src/Aspects/Admin/Stock/StockEdit.php:289
+msgid "Attribute stock field deleted."
+msgstr "O campo de estoque de atributo foi excluído."
+
+#: src/Aspects/Admin/Stock/StockEdit.php:293
+msgid "Attribute stock saved."
+msgstr "O estoque do atributo foi salvo."
+
+#: src/Aspects/Admin/Stock/StockEdit.php:294
+msgid "Attribute stock submitted."
+msgstr "O estoque do atributo foi enviado."
+
+#. translators: %s: date
+#: src/Aspects/Admin/Stock/StockEdit.php:297
+msgid "Attribute stock scheduled for: %s."
+msgstr "O estoque do atributo foi programado para: %s."
+
+#: src/Aspects/Admin/Stock/StockEdit.php:316
+#: src/Aspects/Admin/Stock/StockEdit.php:348
+msgid "Back to attribute stock"
+msgstr "Voltar para o estoque do atributo"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:320
+msgid "Back to \"%s\" attribute term"
+msgstr "Voltar para \"% s\" termo do atributo"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:322
+msgid "Back to attribute term"
+msgstr "Voltar para o termo do atributo"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:327
+msgid "Back to \"%s\" attribute terms"
+msgstr "Voltar para \"% s\" termos do atributo"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:329
+msgid "Back to attribute terms"
+msgstr "Voltar para os termos do atributo"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:334
+msgid "Back to \"%s\" attribute"
+msgstr "Voltar para \"% s\" atributo"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:336
+msgid "Back to attribute"
+msgstr "Voltar para atributo"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:340
+msgid "Back to attributes"
+msgstr "Voltar para os atributos"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:343
+msgid "Back to stock report"
+msgstr "Voltar para o relatório de estoque"
+
+#: src/Aspects/Admin/Stock/StockEdit.php:382
+msgid ""
+"Circular reference detected in component tree. Component stock will be "
+"disabled until you've resolved this."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockExport.php:32
+msgid "There are no valid attribute stock items to export."
+msgstr "Não há estoques de atributos válidos para exportar."
+
+#: src/Aspects/Admin/Stock/StockExport.php:43
+#: src/Aspects/Admin/Stock/StockExport.php:50
+msgid "The uploaded CSV file is invalid and cannot be imported."
+msgstr "O arquivo CSV carregado é inválido e não pode ser importado."
+
+#: src/Aspects/Admin/Stock/StockExport.php:88
+msgid "%d attribute stock item was added successfully."
+msgid_plural "%d attribute stock items were added successfully."
+msgstr[0] "%d item de estoque de atributos foi adicionado com sucesso."
+msgstr[1] "%d itens de estoque de atributos foram adicionados com sucesso."
+
+#: src/Aspects/Admin/Stock/StockExport.php:92
+msgid "%d attribute stock item was updated successfully."
+msgid_plural "%d attribute stock items were updated successfully."
+msgstr[0] "%d item de estoque de atributos foi atualizado com sucesso."
+msgstr[1] "%d itens de estoque de atributos foram atualizados com sucesso."
+
+#: src/Aspects/Admin/Stock/StockExport.php:96
+#, fuzzy
+#| msgid "%d row was skipped due to invalid data."
+#| msgid_plural "%d rows were skipped due to invalid data."
+msgid "%d row was skipped."
+msgid_plural "%d rows were skipped."
+msgstr[0] "%d fila foi pulada devido a dados inválidos."
+msgstr[1] "%d filas foram puladas devido a dados inválidos."
+
+#: src/Aspects/Admin/Stock/StockExport.php:100
+msgid ""
+"No attribute stock items were imported. Please check the file and try again."
+msgstr ""
+"Nenhum item de estoque de atributo foi importado. Por favor, verifique o "
+"arquivo e tente novamente."
+
+#: src/Aspects/Admin/Stock/StockList.php:43
+msgid ""
+"Stock management is disabled in your <a href=\"%s\">WooCommerce settings</"
+"a>. Attribute stock won't function unless stock management is enabled."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:69
+#: templates/admin/stock/metabox-status.php:26
+msgid "Modified"
+msgstr "Modificado"
+
+#: src/Aspects/Admin/Stock/StockList.php:257
+msgid "Edit Stock"
+msgstr "Editar estoque"
+
+#: src/Aspects/Admin/Stock/StockList.php:259
+msgid "Add/Subtract Stock"
+msgstr "Adicionar/Subtrair Estoque"
+
+#: src/Aspects/Admin/Stock/StockList.php:270
+msgid "Component stock"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:271
+#: templates/admin/stock/panel-settings.php:28
+msgid "Internal stock"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:272
+#: templates/admin/stock/panel-settings.php:39
+msgid "Multiplex matching"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:273
+#: templates/admin/stock/panel-settings.php:48
+#, fuzzy
+#| msgid "Quantity multiplier"
+msgid "Lock multipliers"
+msgstr "Multiplicador de quantidade"
+
+#: src/Aspects/Admin/Stock/StockListFilters.php:64
+msgctxt "filter placeholder"
+msgid "# %s"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockListFilters.php:186
+msgid "Component"
+msgstr ""
+
+#: src/Aspects/Common/Shortcode.php:28
+msgid ""
+"Missing \"id\", \"sku\", or \"title\" attribute for shortcode "
+"[attribute_stock]."
+msgstr ""
+
+#: src/Aspects/Common/StockNotifications.php:49
+msgid "Out of stock - %s"
+msgstr "Sem estoque - %s"
+
+#: src/Aspects/Common/StockNotifications.php:50
+msgid "%s is out of stock."
+msgstr "%s está esgotado."
+
+#: src/Aspects/Common/StockNotifications.php:66
+msgid "Low in stock - %s"
+msgstr "Pouco estoque - %s"
+
+#: src/Aspects/Common/StockNotifications.php:67
+msgid "%s is low in stock. There is %f left."
+msgid_plural "%s is low in stock. There are %f left."
+msgstr[0] "%s está com estoque baixo. Resta %f em estoque."
+msgstr[1] "%s está com estoque baixo. Restam %d em estoque."
+
+#: src/Aspects/Front/CartItems.php:276
+msgid "%d (Shared)"
+msgstr ""
+
+#: src/Classes/AttributeStockReport.php:80
+msgid "Edit attribute stock"
+msgstr "Etitar estoque do atributo"
+
+#: src/Classes/AttributeStockReport.php:107
+msgid "No low in stock attributes found."
+msgstr "Nenhum atributo com estoque baixo foi encontrado."
+
+#: src/Classes/AttributeStockReport.php:111
+msgid "No out of stock attributes found."
+msgstr "Nenhum atributo fora de estoque encontrado."
+
+#: src/Classes/AttributeStockReport.php:115
+msgid "No most stocked attributes found."
+msgstr "Nenhum estoque de atributo encontrado."
+
+#: src/Core/Loader.php:131
+msgid "WooCommerce attribute stock items."
+msgstr "WooCommerce attribute stock itens."
+
+#: src/Core/Loader.php:136
+msgctxt "post type general name"
+msgid "Attribute Stock"
+msgstr "Estoque de atributo"
+
+#: src/Core/Loader.php:137
+msgctxt "post type singular name"
+msgid "Attribute Stock"
+msgstr "Estoque de atributo"
+
+#: src/Core/Loader.php:138
+#| msgid "Stock"
+msgid "Stock image"
+msgstr ""
+
+#: src/Core/Loader.php:139
+#| msgid "List stock items"
+msgid "Set stock image"
+msgstr ""
+
+#: src/Core/Loader.php:140
+msgid "Remove stock image"
+msgstr ""
+
+#: src/Core/Loader.php:141
+msgid "Use as stock image"
+msgstr ""
+
+#: src/Util/Export.php:41
+msgid ""
+"Request headers have already been sent. This usually happens when PHP "
+"warnings or notices are being displayed. Please fix these and try again."
+msgstr ""
+
+#: src/Util/Export.php:47
+msgid ""
+"Writing to PHP's output stream (php://output) has been disabled. Unable to "
+"output CSV file download."
+msgstr ""
+
+#: src/Util/Orders.php:457
+msgctxt "order note line format"
+msgid "%1$s: %2$s&rarr;%3$s"
+msgstr ""
+
+#: templates/admin/attributes/add-fields.php:14
+#: templates/admin/attributes/edit-fields.php:30
+#, fuzzy
+#| msgid "Enable stock management at the attribute term level."
+msgid ""
+"Enable stock management at the attribute level (all terms share the same "
+"stock)."
+msgstr "Habilite o gerenciamento de estoque no nível do termo do atributo."
+
+#: templates/admin/attributes/add-fields.php:16
+#: templates/admin/attributes/edit-fields.php:32
+msgid "Enable stock management at the attribute term level."
+msgstr "Habilite o gerenciamento de estoque no nível do termo do atributo."
+
+#: templates/admin/attributes/add-fields.php:27
+#: templates/admin/attributes/edit-fields.php:48
+#, fuzzy
+#| msgid "Unique identifier for stock keeping. Optional."
+msgid "Unique identifier for stock keeping. Optional for your own reference."
+msgstr "Identificador único para manutenção de estoque. Opcional."
+
+#: templates/admin/attributes/add-fields.php:38
+#: templates/admin/attributes/edit-fields.php:64
+msgid "Current stock quantity of this attribute."
+msgstr "Quantidade de estoque atual deste atributo."
+
+#: templates/admin/attributes/add-fields.php:40
+#: templates/admin/attributes/edit-fields.php:66
+msgid "Current stock quantity of this attribute term."
+msgstr "Quantidade de estoque atual para esse termo."
+
+#: templates/admin/attributes/edit-associated.php:17
+msgid "Associated stock"
+msgstr "Estoque associado"
+
+#: templates/admin/attributes/edit-fields.php:24
+msgid "Configure"
+msgstr "Configurar"
+
+#: templates/admin/products/product-options.php:11
+msgid ""
+"Set a stock multiplier for product stock and/or attribute stock. Overrides "
+"attribute stock level multipliers. Variation level multipliers take priority."
+msgstr ""
+
+#: templates/admin/products/product-options.php:14
+#: templates/admin/products/variation-fields.php:15
+msgid ""
+"Please note that multipliers only apply to attribute stock in the lite "
+"version. The full version is required for product stock multipliers."
+msgstr ""
+
+#: templates/admin/products/product-options.php:34
+#: templates/admin/products/variation-options.php:12
+msgid "Ignore attribute stock"
+msgstr "Ignorar estoque de atributo"
+
+#: templates/admin/products/product-options.php:35
+msgid ""
+"Exclude this product from affecting or being affected by attribute stock"
+msgstr ""
+"Impedir que este produto afete ou seja afetado pelo plugin estoque de "
+"atributo"
+
+#: templates/admin/products/variation-fields.php:12
+msgid ""
+"Set a stock multiplier for product stock and/or attribute stock. Overrides "
+"product level and attribute stock level multipliers."
+msgstr ""
+
+#: templates/admin/products/variation-options.php:11
+msgid ""
+"Exclude this variation from affecting or being affected by attribute stock"
+msgstr ""
+"Essa variação de não deve afetar ou ser afetada pelo plugin que controla o "
+"estoque de atributo"
+
+#: templates/admin/stock/list-pills.php:45
+msgid "Show more"
+msgstr ""
+
+#: templates/admin/stock/metabox-status.php:39
+msgid "Update Stock"
+msgstr "Atualizar estoque"
+
+#: templates/admin/stock/metabox-status.php:39
+msgid "Create Stock"
+msgstr "Criar estoque"
+
+#: templates/admin/stock/panel-components.php:16
+msgid "Select items that use this stock item as a component."
+msgstr ""
+
+#: templates/admin/stock/panel-components.php:31
+msgid "Select components that this stock item uses."
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:21
+msgid ""
+"Filter matching to the selected products only. Leave blank to allow all "
+"products."
+msgstr ""
+"Filtro correspondente apenas aos produtos selecionados. Deixe em branco para "
+"permitir todos os produtos."
+
+#: templates/admin/stock/panel-filters.php:27
+msgid "All products"
+msgstr "Todos os produtos"
+
+#: templates/admin/stock/panel-filters.php:38
+msgid "Filter matching to exclude the selected products."
+msgstr "Filtrar correspondência para excluir os produtos selecionados."
+
+#: templates/admin/stock/panel-filters.php:44
+msgid "No products excluded"
+msgstr "Nenhum produto excluído"
+
+#: templates/admin/stock/panel-filters.php:57
+msgid ""
+"Filter matching to products in the selected categories only. Leave blank to "
+"allow products in any category."
+msgstr ""
+"Filtro de correspondência para as categorias selecionadas. Deixe em branco "
+"para permitir produtos em qualquer categoria."
+
+#: templates/admin/stock/panel-filters.php:63
+msgid "All categories"
+msgstr "Todas as categorias"
+
+#: templates/admin/stock/panel-filters.php:72
+msgid "Filter matching to exclude all products in the selected categories."
+msgstr ""
+"Filtre a correspondência para excluir todos os produtos nas categorias "
+"selecionadas."
+
+#: templates/admin/stock/panel-filters.php:78
+msgid "No categories excluded"
+msgstr "Nenhuma categoria excluída"
+
+#: templates/admin/stock/panel-filters.php:85
+msgid "Product types"
+msgstr "Tipos do produto"
+
+#: templates/admin/stock/panel-filters.php:89
+msgid ""
+"Filter matching to products of the selected types only. Leave blank to allow "
+"products of any valid type."
+msgstr ""
+"Filtro de correspondência para tipos de produtos. Deixe em branco para "
+"permitir produtos de qualquer tipo válido."
+
+#: templates/admin/stock/panel-filters.php:95
+msgid "All product types"
+msgstr "Todos os tipos do produto"
+
+#: templates/admin/stock/panel-inventory.php:14
+msgid ""
+"Unique identifier for stock keeping. This is optional for your own reference "
+"and doesn't affect stock functionality in any way."
+msgstr ""
+
+#: templates/admin/stock/panel-inventory.php:25
+msgid "Current stock quantity of this attribute stock item."
+msgstr "Quantidade de estoque atual para esse item."
+
+#: templates/admin/stock/panel-inventory.php:36
+msgid "Internal notes about this attribute stock item."
+msgstr "Notas internas sobre este estoque de atributo."
+
+#: templates/admin/stock/panel-settings.php:13
+msgid "Full version required — Click to upgrade"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:21
+msgid ""
+"When stock reaches this amount or less, you will be notified by email (if "
+"enabled)."
+msgstr ""
+"Quando o estoque atingir esse valor ou menos, você será notificado por e-"
+"mail (se habilitado)."
+
+#: templates/admin/stock/panel-settings.php:31
+msgid ""
+"Internal stock is ignored when determining the stock availability of matched "
+"products"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:31
+#: templates/admin/stock/panel-settings.php:42
+#: templates/admin/stock/panel-settings.php:51
+#: templates/admin/stock/panel-settings.php:60
+msgid "Learn more"
+msgstr "Ler mais"
+
+#: templates/admin/stock/panel-settings.php:42
+#, fuzzy
+#| msgid "Reduce stock for multiple matching attribute groups at the same time"
+msgid ""
+"Reduce stock for multiple matching rules simultaneously instead of only the "
+"first matched rule"
+msgstr ""
+"Ativando essa opção o estoque será reduzido para cada grupo de atributos "
+"correspondente, nos casos em que mais de uma correspondência ocorrer para um "
+"produto / variação"
+
+#: templates/admin/stock/panel-settings.php:51
+msgid "Prevent this item's stock multipliers from being overridden by products"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:57
+#| msgid "Product types"
+msgid "Product image"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:60
+msgid ""
+"Use this item's stock image as a fallback for matched products with no image"
+msgstr ""
+
+#~ msgid "Documentation"
+#~ msgstr "Documentação"
+
+#~ msgid "Auto"
+#~ msgstr "Auto"
+
+#~ msgid "Duplicate"
+#~ msgstr "Duplicar"
+
+#~ msgid "Sorry, you are not allowed to do that."
+#~ msgstr "Desculpe, você não tem permissão para fazer isso."
+
+#~ msgid "Enable"
+#~ msgstr "Ativar"
+
+#~ msgid "Disable"
+#~ msgstr "Desativar"
+
+#~ msgid "%s (Copy)"
+#~ msgstr "%s (Cópia)"
+
+#~ msgid "Inventory"
+#~ msgstr "Inventário"
+
+#~ msgid "Settings"
+#~ msgstr "Configurações"
+
+#~ msgid "Attributes"
+#~ msgstr "Atributos"
+
+#~ msgid "Revision restored."
+#~ msgstr "Revisão restaurada."
+
+#~ msgid "Notes"
+#~ msgstr "Notas"
+
+#~ msgid "Disabled"
+#~ msgstr "Desativado"
+
+#~ msgid "Enabled"
+#~ msgstr "Habilitado"
+
+#~ msgid "All Stock"
+#~ msgstr "Todo o Estoque"
+
+#~ msgid "All Products"
+#~ msgstr "Todos os Produtos"
+
+#~ msgid "All Categories"
+#~ msgstr "Todas as Categorias"
+
+#~ msgid "All Attributes"
+#~ msgstr "Todos os Atributos"
+
+#~ msgid "All Terms"
+#~ msgstr "Todos os Termos"
+
+#~ msgid "Attribute stock reduced"
+#~ msgstr "O estoque do atributo foi reduzido"
+
+#~ msgid "Attribute stock increased"
+#~ msgstr "O estoque do atributos aumentou"
+
+#~ msgid "Attribute stock adjusted"
+#~ msgstr "Estoque de atributo ajustado"
+
+#~ msgid "Enable stock management at the attribute level."
+#~ msgstr "Habilite o gerenciamento de estoque no nível do atributo."
+
+#~ msgid "Created"
+#~ msgstr "Criado"
+
+#~ msgid "Only available in the full version"
+#~ msgstr "Disponível apenas na versão completa"
+
+#~ msgid "Upgrade Now"
+#~ msgstr "Atualizar agora"
+
+#~ msgid ""
+#~ "Restrict available stock for matching products and prevent over-purchasing"
+#~ msgstr ""
+#~ "Evitar compra em excesso para produtos correspondentes. Esta opção é "
+#~ "necessária para que o estoque de atributo gerencie o estoque de produto "
+#~ "disponível no front-end"
+
+#~ msgid "Match all groups"
+#~ msgstr "Combinar todos os grupos"
+
+#~ msgid "Add group"
+#~ msgstr "Adicionar grupo"
+
+#~ msgid "Group #%d"
+#~ msgstr "Grupo #%d"
+
+#~ msgid "Remove"
+#~ msgstr "Remover"
+
+#~ msgid "Attribute..."
+#~ msgstr "Atributo..."
+
+#~ msgid "Any %s"
+#~ msgstr "Qualquer %s"
+
+#~ msgid "Term..."
+#~ msgstr "Termo..."
+
+#~ msgid "Remove attribute"
+#~ msgstr "Remover atributo"
+
+#~ msgid "Add attribute"
+#~ msgstr "Adicionar atributo"
+
+#~ msgid "Collapse all"
+#~ msgstr "Fechar todos"
+
+#~ msgid "Expand all"
+#~ msgstr "Expandir todos"
+
+#~ msgid "Remove this attribute match group?"
+#~ msgstr "Remover este conjunto de correspondência de atributo?"
+
+#~ msgid "Manage"
+#~ msgstr "Gerenciar"
+
+#~ msgid "Purchase"
+#~ msgstr "Comprar"
+
+#~ msgid "Support"
+#~ msgstr "Suporte"
+
+#~ msgid ""
+#~ "%d row was skipped. It may contain invalid data or match an item that "
+#~ "already exists."
+#~ msgid_plural ""
+#~ "%d rows were skipped. They may contain invalid data or match items that "
+#~ "already exist."
+#~ msgstr[0] ""
+#~ "%d linha foi ignorada. Ele pode conter dados inválidos ou corresponder a "
+#~ "um item que já existe."
+#~ msgstr[1] ""
+#~ "%d linhas foram ignoradas. Elas podem conter dados inválidos ou "
+#~ "correspondem a um item que já existe."
+
+#~ msgid ""
+#~ "You cannot add that amount to the cart &mdash; we have insufficient stock "
+#~ "of %s."
+#~ msgid_plural ""
+#~ "You cannot add that amount to the cart &mdash; we have insufficient stock "
+#~ "shared by %s and %s."
+#~ msgstr[0] ""
+#~ "Você não pode adicionar essa quantidade ao carrinho, &mdash; não temos %s "
+#~ "suficiente em estoque."
+#~ msgstr[1] ""
+#~ "Você não pode adicionar essas quantidades ao carrinho, &mdash; não temos "
+#~ "estoque suficiente de %s e %s."
+
+#~ msgid "Sorry, we do not have sufficient stock shared by %s and %s."
+#~ msgstr "Desculpe, não temos estoque suficiente compartilhado por %s e %s."

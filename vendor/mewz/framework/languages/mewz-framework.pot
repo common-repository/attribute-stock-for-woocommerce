@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mewz Framework 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-13T23:48:50+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: mewz-framework\n"
+
+#: src/Core/Authorizer.php:71
+msgid "Envato authorization failed. Please try again."
+msgstr ""
+
+#: src/Core/Authorizer.php:75
+msgid "Your purchase could not be verified. Please make sure you're signed into the Envato account that purchased <a href=\"%s\" target=\"_blank\">%s</a>. If you need a license, you can <a href=\"%s\" target=\"_blank\">buy one</a> now."
+msgstr ""
+
+#: src/Core/Authorizer.php:79
+msgid "Your purchase has been verified successfully. Thank you for using our plugin! ❤️"
+msgstr ""
+
+#: src/Core/Authorizer.php:99
+msgid "Authorize with Envato"
+msgstr ""
+
+#: src/Core/Authorizer.php:115
+msgid "Authorizing..."
+msgstr ""
+
+#: src/Core/Authorizer.php:125
+msgid "Please connect your CodeCanyon account to enable plugin updates."
+msgstr ""
+
+#: src/Core/Authorizer.php:128
+msgid "Need a license? <a href=\"%s\" target=\"_blank\">Buy one</a>"
+msgstr ""
+
+#: src/Util/PostType.php:113
+#: src/Util/PostType.php:144
+msgid "Add New %s"
+msgstr ""
+
+#: src/Util/PostType.php:115
+msgid "New %s"
+msgstr ""
+
+#: src/Util/PostType.php:116
+#: src/Util/PostType.php:151
+msgctxt "post type view singular"
+msgid "View %s"
+msgstr ""
+
+#: src/Util/PostType.php:117
+msgctxt "post type view plural"
+msgid "View %s"
+msgstr ""
+
+#: src/Util/PostType.php:120
+msgid "No %s found in Trash."
+msgstr ""
+
+#: src/Util/PostType.php:123
+msgid "%s Archives"
+msgstr ""
+
+#: src/Util/PostType.php:124
+msgid "%s Attributes"
+msgstr ""
+
+#: src/Util/PostType.php:125
+msgid "Insert into %s"
+msgstr ""
+
+#: src/Util/PostType.php:126
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: src/Util/PostType.php:127
+msgid "Filter %s list"
+msgstr ""
+
+#: src/Util/PostType.php:128
+#: src/Util/PostType.php:159
+msgid "%s list navigation"
+msgstr ""
+
+#: src/Util/PostType.php:129
+#: src/Util/PostType.php:160
+msgid "%s list"
+msgstr ""
+
+#: src/Util/PostType.php:130
+msgid "%s published."
+msgstr ""
+
+#: src/Util/PostType.php:131
+msgid "%s published privately."
+msgstr ""
+
+#: src/Util/PostType.php:132
+msgid "%s reverted to draft."
+msgstr ""
+
+#: src/Util/PostType.php:133
+msgid "%s scheduled."
+msgstr ""
+
+#: src/Util/PostType.php:134
+msgid "%s updated."
+msgstr ""
+
+#: src/Util/PostType.php:146
+msgid "Popular %s"
+msgstr ""
+
+#: src/Util/PostType.php:149
+msgid "Parent %s:"
+msgstr ""
+
+#: src/Util/PostType.php:152
+msgid "Update %s"
+msgstr ""
+
+#: src/Util/PostType.php:153
+msgid "New %s Name"
+msgstr ""
+
+#: src/Util/PostType.php:154
+msgid "Separate %s with commas"
+msgstr ""
+
+#: src/Util/PostType.php:155
+msgid "Add or remove %"
+msgstr ""
+
+#: src/Util/PostType.php:156
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: src/Util/PostType.php:157
+msgid "No %s found."
+msgstr ""
+
+#: src/Util/PostType.php:158
+msgid "No %s"
+msgstr ""
+
+#: src/Util/PostType.php:161
+msgid "&larr; Back to %s"
+msgstr ""

@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'mewz/woocommerce-attribute-stock',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'e1823a99e74b6923d0d463c04101ad94ae7b4a84',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'mewz/framework' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'e0b60997f7fcefe2a9c0b18112f2d7af1175c632',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mewz/framework',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mewz/query-builder' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '344925003270026f9bfbcfdf0facc6d36354b315',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mewz/query-builder',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mewz/woocommerce-attribute-stock' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'e1823a99e74b6923d0d463c04101ad94ae7b4a84',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

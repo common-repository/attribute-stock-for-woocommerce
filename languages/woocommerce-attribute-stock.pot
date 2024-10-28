@@ -1,0 +1,758 @@
+# Copyright (C) 2024 Mewz
+# This file is distributed under the same license as the WooCommerce Attribute Stock plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Attribute Stock 2.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-attribute-stock\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-13T23:48:50+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: woocommerce-attribute-stock\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-attribute-stock.php
+msgid "WooCommerce Attribute Stock"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-attribute-stock.php
+msgid "https://codecanyon.net/item/woocommerce-attribute-stock/25796765"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-attribute-stock.php
+msgid "Take your stock to the next level. Set up complex stock configurations with ease. Shared stock, variable quantities, the possibilities are endless."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-attribute-stock.php
+msgid "Mewz"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-attribute-stock.php
+msgid "https://mewz.dev/"
+msgstr ""
+
+#: includes/activation.php:43
+msgid "A different version of \"%s\" is already installed. Please deactivate and uninstall it first. Your attribute stock data will not be deleted."
+msgstr ""
+
+#: src/Aspects/Admin/Attributes/AttributeList.php:57
+#: src/Aspects/Admin/Attributes/AttributeTermList.php:132
+msgid "Edit stock"
+msgstr ""
+
+#: src/Aspects/Admin/Attributes/AttributeList.php:63
+#: src/Aspects/Admin/Attributes/AttributeTermList.php:142
+msgid "List stock items"
+msgstr ""
+
+#: src/Aspects/Admin/Attributes/AttributeTermList.php:87
+msgid "Multiplier"
+msgstr ""
+
+#: src/Aspects/Admin/Attributes/AttributeTermList.php:132
+msgid "Edit attribute-level stock"
+msgstr ""
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:21
+#: src/Aspects/Admin/Plugin/PluginHelp.php:23
+msgid "Help & Support"
+msgstr ""
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:24
+msgid "Need assistance setting up your attribute stock? Found a bug and want to report it? Just feel like chatting? Get in touch!"
+msgstr ""
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:26
+msgid "Get support"
+msgstr ""
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:36
+msgid "Want to learn more about %s? Check out the official online documentation."
+msgstr ""
+
+#: src/Aspects/Admin/Plugin/PluginHelp.php:38
+msgid "Online documentation"
+msgstr ""
+
+#: src/Aspects/Admin/Reports/StockReport.php:20
+#: src/Aspects/Admin/Settings/InventorySettings.php:23
+msgid "Attribute Stock"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:30
+msgid "Modify product stock"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:33
+msgid "Set whether attribute stock affects product stock availability. 'Auto' will only modify stock on the frontend, in cron tasks, and during certain actions. 'Everywhere' will modify stock in admin views, and may improve compatibility with other plugins. This setting also affects product stock multipliers."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:44
+msgid "Sync product visibility"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:47
+msgid "Update visibility taxonomy for top-level products to reflect attribute stock status. This allows product queries to respect attribute stock, for example when using the \"Hide out of stock items\" setting. 'Auto' mirrors the \"Hide out of stock items\" setting."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:58
+msgid "Trigger product stock actions"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:61
+msgid "Trigger product stock change actions when attribute stock changes. Many plugins require these actions to know when stock changes on your site. However, in some cases this might cause issues with certain plugins, or simply not be needed and use unnecessary system resources."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:74
+msgid "Allow backorders for products using attribute stock. Does not affect products with stock management enabled, or products that are not using attribute stock."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:81
+msgid "Product stock format"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:84
+msgid "Setting this to decimal allows products to use fractional stock quantities. This is required when using decimal product stock multipliers or else quantities will always be rounded down. You can optionally show whole numbers so customers don't see fractional stock quantities on the frontend."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:89
+msgid "Decimal"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:90
+msgid "Decimal (Show whole numbers)"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:95
+msgid "Out of stock variations"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:98
+msgid "Select how variation options will be displayed when out of stock. This only applies when the \"Hide out of stock items\" setting is disabled, and affects all variation options site-wide regardless of attribute stock.<br><br> If your products have a lot of variations you'll need to increase the \"Ajax variation threshold\" for this to work."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:103
+#: src/Aspects/Admin/Settings/InventorySettings.php:118
+msgid "Greyed out"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:109
+msgid "Unmatched \"Any\" variations"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:112
+msgid "Select how \"Any\" variation options that don't match attribute stock will be displayed on the frontend. Only affects product variations with \"Any\" selected for some or all attribute terms."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:124
+msgid "Ajax variation threshold"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:127
+msgid "Allows changing the default WooCommerce Ajax Variation Threshold value. When products have more than this number of variations, WooCommerce will load them via Ajax. This is often problematic as it incurs extra loading times and prevents hiding or disabling out-of-stock options. Most servers running WooCommerce can handle a value of at least 300."
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:138
+msgid "Components max depth"
+msgstr ""
+
+#: src/Aspects/Admin/Settings/InventorySettings.php:141
+msgid "The maximum number of levels to query for stock item components. E.g. for A > B > C, component C is at a depth of 2. Try to set this as low as possible to maximize performance. A depth of 0 effectively disables all component stock relationships."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockActions.php:160
+msgid "Attribute stock \"%s\" has been duplicated."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockAjax.php:23
+msgid "Invalid attribute stock ID."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:84
+msgid "%d attribute stock enabled."
+msgid_plural "%d attribute stocks enabled."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:86
+msgid "%d attribute stock disabled."
+msgid_plural "%d attribute stocks disabled."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:92
+msgid "No disabled attribute stocks to enable."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:94
+msgid "No enabled attribute stocks to disable."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:114
+msgid "%d attribute stock duplicated."
+msgid_plural "%d attribute stocks duplicated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:116
+msgid "No valid attribute stocks to duplicate."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:134
+msgid "No attribute stock items to export."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:145
+msgid "%d attribute stock updated."
+msgid_plural "%d attribute stocks updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:146
+msgid "%d attribute stock not updated, somebody is editing it."
+msgid_plural "%d attribute stocks not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:147
+msgid "%d attribute stock permanently deleted."
+msgid_plural "%d attribute stocks permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:148
+msgid "%d attribute stock moved to the Trash."
+msgid_plural "%d attribute stocks moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockBulkActions.php:149
+msgid "%d attribute stock restored from the Trash."
+msgid_plural "%d attribute stocks restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:43
+msgid "Stock details"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:44
+msgid "Match rules"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:76
+#: src/Aspects/Admin/Stock/StockList.php:66
+msgid "Components"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:103
+#: src/Aspects/Admin/Stock/StockList.php:68
+msgid "Filters"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:226
+#: src/Aspects/Admin/Stock/StockList.php:357
+#: src/Util/Attributes.php:197
+msgid "Any"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:230
+msgid "Drag to re-order"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:233
+#: templates/admin/products/variation-toolbar.php:13
+msgid "Stock multiplier inherited from attribute terms"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:234
+#: templates/admin/attributes/add-fields.php:48
+#: templates/admin/attributes/edit-fields.php:150
+#: templates/admin/products/product-fields.php:24
+#: templates/admin/products/variation-fields.php:24
+msgid "Stock multiplier"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:235
+msgid "The amount of stock reduced per item purchased. Can be set to 0 to force out of stock, or to -1 to stop matching."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:236
+msgid "New rule"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:237
+msgid "Attribute rules are matched against products from top to bottom in order. Only the first matched rule will be used, unless <strong>Multiplex matching</strong> is enabled. A product or variation must have all attributes in a rule to match."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:240
+msgid "Restore last removed rule"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:241
+msgid "Rule #%s"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:242
+msgid "Stop rule — When matched, excludes this and subsequent rules from matching,"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:251
+#: src/Aspects/Admin/Stock/StockListFilters.php:165
+#: templates/admin/stock/panel-components.php:11
+msgid "Parent components"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:252
+msgid "Parent components are stock items that use this stock item as a component."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:253
+msgid "Add parent component..."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:254
+#: src/Aspects/Admin/Stock/StockEdit.php:260
+msgid "Child quantity per parent"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:257
+#: src/Aspects/Admin/Stock/StockListFilters.php:169
+#: templates/admin/stock/panel-components.php:26
+msgid "Child components"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:258
+msgid "Child components are stock items that this stock item uses as components."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:259
+msgid "Add child component..."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:316
+#: src/Aspects/Admin/Stock/StockEdit.php:319
+#: src/Aspects/Admin/Stock/StockEdit.php:321
+#: src/Aspects/Admin/Stock/StockEdit.php:329
+msgid "Attribute stock updated."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:317
+msgid "Attribute stock field updated."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:318
+msgid "Attribute stock field deleted."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:322
+msgid "Attribute stock saved."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:323
+msgid "Attribute stock submitted."
+msgstr ""
+
+#. translators: %s: date
+#: src/Aspects/Admin/Stock/StockEdit.php:326
+msgid "Attribute stock scheduled for: %s."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:345
+#: src/Aspects/Admin/Stock/StockEdit.php:377
+msgid "Back to attribute stock"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:349
+msgid "Back to \"%s\" attribute term"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:351
+msgid "Back to attribute term"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:356
+msgid "Back to \"%s\" attribute terms"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:358
+msgid "Back to attribute terms"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:363
+msgid "Back to \"%s\" attribute"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:365
+msgid "Back to attribute"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:369
+msgid "Back to attributes"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:372
+msgid "Back to stock report"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockEdit.php:411
+msgid "Circular reference detected in component tree. Component stock will be disabled until you've resolved this."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockExport.php:32
+msgid "There are no valid attribute stock items to export."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockExport.php:43
+#: src/Aspects/Admin/Stock/StockExport.php:50
+msgid "The uploaded CSV file is invalid and cannot be imported."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockExport.php:88
+msgid "%d attribute stock item was added successfully."
+msgid_plural "%d attribute stock items were added successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockExport.php:92
+msgid "%d attribute stock item was updated successfully."
+msgid_plural "%d attribute stock items were updated successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockExport.php:96
+msgid "%d row was skipped."
+msgid_plural "%d rows were skipped."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Admin/Stock/StockExport.php:100
+msgid "No attribute stock items were imported. Please check the file and try again."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:45
+msgid "Stock management is disabled in your <a href=\"%s\">WooCommerce settings</a>. Attribute stock won't function unless stock management is enabled."
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:71
+#: templates/admin/stock/metabox-status.php:30
+msgid "Modified"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:267
+msgid "Edit Stock"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:269
+msgid "Add/Subtract Stock"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:280
+msgid "Component stock"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:281
+#: templates/admin/stock/panel-settings.php:35
+msgid "Internal stock"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:282
+#: templates/admin/stock/panel-settings.php:46
+msgid "Multiplex matching"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockList.php:283
+#: templates/admin/stock/panel-settings.php:55
+msgid "Lock multipliers"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockListFilters.php:68
+msgctxt "filter placeholder"
+msgid "# %s"
+msgstr ""
+
+#: src/Aspects/Admin/Stock/StockListFilters.php:190
+msgid "Component"
+msgstr ""
+
+#: src/Aspects/Common/Shortcode.php:28
+msgid "Missing \"id\", \"sku\", or \"title\" attribute for shortcode [attribute_stock]."
+msgstr ""
+
+#: src/Aspects/Common/StockNotifications.php:49
+msgid "Out of stock - %s"
+msgstr ""
+
+#: src/Aspects/Common/StockNotifications.php:50
+msgid "%s is out of stock."
+msgstr ""
+
+#: src/Aspects/Common/StockNotifications.php:66
+msgid "Low in stock - %s"
+msgstr ""
+
+#: src/Aspects/Common/StockNotifications.php:67
+msgid "%s is low in stock. There is %f left."
+msgid_plural "%s is low in stock. There are %f left."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Aspects/Common/Webhooks.php:32
+msgid "Attribute Stock created"
+msgstr ""
+
+#: src/Aspects/Common/Webhooks.php:33
+msgid "Attribute Stock updated"
+msgstr ""
+
+#: src/Aspects/Common/Webhooks.php:34
+msgid "Attribute Stock deleted"
+msgstr ""
+
+#: src/Aspects/Common/Webhooks.php:35
+msgid "Attribute Stock restored"
+msgstr ""
+
+#: src/Aspects/Front/CartItems.php:253
+msgid "%d (Shared)"
+msgstr ""
+
+#: src/Classes/AttributeStockReport.php:80
+msgid "Edit attribute stock"
+msgstr ""
+
+#: src/Classes/AttributeStockReport.php:107
+msgid "No low in stock attributes found."
+msgstr ""
+
+#: src/Classes/AttributeStockReport.php:111
+msgid "No out of stock attributes found."
+msgstr ""
+
+#: src/Classes/AttributeStockReport.php:115
+msgid "No most stocked attributes found."
+msgstr ""
+
+#: src/Core/Loader.php:125
+msgid "WooCommerce attribute stock items."
+msgstr ""
+
+#: src/Core/Loader.php:137
+msgctxt "post type general name"
+msgid "Attribute Stock"
+msgstr ""
+
+#: src/Core/Loader.php:138
+msgctxt "post type singular name"
+msgid "Attribute Stock"
+msgstr ""
+
+#: src/Core/Loader.php:139
+msgid "Stock image"
+msgstr ""
+
+#: src/Core/Loader.php:140
+msgid "Set stock image"
+msgstr ""
+
+#: src/Core/Loader.php:141
+msgid "Remove stock image"
+msgstr ""
+
+#: src/Core/Loader.php:142
+msgid "Use as stock image"
+msgstr ""
+
+#: src/Util/Export.php:42
+msgid "Request headers have already been sent. This usually happens when PHP warnings or notices are being displayed. Please fix these and try again."
+msgstr ""
+
+#: src/Util/Export.php:48
+msgid "Writing to PHP's output stream (php://output) has been disabled. Unable to output CSV file download."
+msgstr ""
+
+#: src/Util/Orders.php:467
+msgctxt "order note line format"
+msgid "%1$s: %2$s&rarr;%3$s"
+msgstr ""
+
+#: templates/admin/attributes/add-fields.php:14
+#: templates/admin/attributes/edit-fields.php:102
+msgid "Enable stock management at the attribute level (all terms share the same stock)."
+msgstr ""
+
+#: templates/admin/attributes/add-fields.php:16
+#: templates/admin/attributes/edit-fields.php:104
+msgid "Enable stock management for this attribute term."
+msgstr ""
+
+#: templates/admin/attributes/add-fields.php:27
+#: templates/admin/attributes/edit-fields.php:120
+msgid "Unique identifier for stock keeping. Optional for your own reference."
+msgstr ""
+
+#: templates/admin/attributes/add-fields.php:38
+#: templates/admin/attributes/edit-fields.php:136
+msgid "Current stock quantity of this attribute."
+msgstr ""
+
+#: templates/admin/attributes/add-fields.php:40
+#: templates/admin/attributes/edit-fields.php:138
+msgid "Current stock quantity of this attribute term."
+msgstr ""
+
+#: templates/admin/attributes/add-fields.php:52
+#: templates/admin/attributes/edit-fields.php:157
+msgid "The default stock multiplier to use for product stock or attribute stock."
+msgstr ""
+
+#: templates/admin/attributes/edit-fields.php:30
+msgid "Attribute stock"
+msgstr ""
+
+#: templates/admin/attributes/edit-fields.php:96
+msgid "Configure"
+msgstr ""
+
+#: templates/admin/products/product-fields.php:12
+#: templates/admin/products/variation-fields.php:13
+msgid "Set a multiplier for stock quantities. Applies to product stock if managing stock, otherwise applies to attribute stock (inherit multipliers on attribute stock items). Multipliers set on variations take priority."
+msgstr ""
+
+#: templates/admin/products/product-fields.php:15
+#: templates/admin/products/variation-fields.php:16
+msgid "LITE VERSION: Multipliers will only apply to attribute stock. The full version is required for product stock multipliers."
+msgstr ""
+
+#: templates/admin/products/product-fields.php:35
+#: templates/admin/products/variation-options.php:11
+msgid "Ignore attribute stock"
+msgstr ""
+
+#: templates/admin/products/product-fields.php:36
+msgid "Exclude this product from affecting or being affected by attribute stock"
+msgstr ""
+
+#: templates/admin/products/variation-options.php:10
+msgid "Exclude this variation from affecting or being affected by attribute stock"
+msgstr ""
+
+#: templates/admin/stock/list-chips.php:47
+msgid "Show more"
+msgstr ""
+
+#: templates/admin/stock/metabox-status.php:47
+msgid "Update Stock"
+msgstr ""
+
+#: templates/admin/stock/metabox-status.php:47
+msgid "Create Stock"
+msgstr ""
+
+#: templates/admin/stock/panel-components.php:15
+msgid "Select items that use this stock item as a component."
+msgstr ""
+
+#: templates/admin/stock/panel-components.php:30
+msgid "Select components that this stock item uses."
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:19
+msgid "Filter matching to the selected products only. Leave blank to allow all products."
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:25
+msgid "All products"
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:36
+msgid "Filter matching to exclude the selected products."
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:42
+msgid "No products excluded"
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:55
+msgid "Filter matching to products in the selected categories only. Leave blank to allow products in any category."
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:61
+msgid "All categories"
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:70
+msgid "Filter matching to exclude all products in the selected categories."
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:76
+msgid "No categories excluded"
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:83
+msgid "Product types"
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:87
+msgid "Filter matching to products of the selected types only. Leave blank to allow products of any valid type."
+msgstr ""
+
+#: templates/admin/stock/panel-filters.php:93
+msgid "All product types"
+msgstr ""
+
+#: templates/admin/stock/panel-inventory.php:14
+msgid "Unique identifier for stock keeping. This is optional for your own reference and doesn't affect stock functionality in any way."
+msgstr ""
+
+#: templates/admin/stock/panel-inventory.php:25
+msgid "Current stock quantity of this attribute stock item."
+msgstr ""
+
+#: templates/admin/stock/panel-inventory.php:36
+msgid "Internal notes about this attribute stock item."
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:13
+msgid "Full version required — Click to upgrade"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:24
+msgid "When stock reaches this amount or less, you will be notified by email (if enabled)."
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:38
+msgid "Internal stock is ignored when determining the stock availability of matched products"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:49
+msgid "Deduct stock for multiple matching rules simultaneously (instead of only the first matched rule)"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:58
+msgid "Prevent this item's stock multipliers from being overridden by products"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:68
+msgid "Product SKU"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:71
+msgid "Allow matched products to inherit this stock item's SKU"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:79
+msgid "Product image"
+msgstr ""
+
+#: templates/admin/stock/panel-settings.php:82
+msgid "Allow matched products to inherit this stock item's image"
+msgstr ""
